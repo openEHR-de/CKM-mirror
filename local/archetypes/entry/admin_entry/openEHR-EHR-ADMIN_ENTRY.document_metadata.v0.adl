@@ -5,6 +5,16 @@ concept
 	[at0000]	-- Document Metadata
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,12 @@ description
 		["date"] = <"2026-03-20">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"Zum Speichern von Dokumentmetadaten">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To store document metadata">
@@ -29,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"DF93AE7C2B9276FAD5CC5AD7BD437B8A">
-		["build_uid"] = <"3354d976-a5f4-4846-878f-bdd8d021c0bc">
+		["MD5-CAM-1.0.1"] = <"813FEECF739A43E1BB99F3FBF06191A9">
+		["build_uid"] = <"f0808b93-e097-4c93-825d-1def201845d7">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -125,6 +141,50 @@ ontology
 				>
 				["at0010"] = <
 					text = <"MIME type">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"Dokumentenmetadaten">
+					description = <"Dokumentenmetadaten">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Standort">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Formular">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Dateigröße">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Speicherverzeichnis">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Speicherort">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Bestellnummer">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Mediendaten">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"MIME-Typ">
 					description = <"">
 				>
 			>
