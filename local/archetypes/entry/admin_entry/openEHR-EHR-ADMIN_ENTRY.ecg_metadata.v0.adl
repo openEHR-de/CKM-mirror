@@ -30,8 +30,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"34EF9F08796A3949A5B9198BC7B52B6E">
-		["build_uid"] = <"57be4e1b-4a74-4d4b-af65-ec8d25147248">
+		["MD5-CAM-1.0.1"] = <"8279A897C21284A6FC205875894E9FAF">
+		["build_uid"] = <"6fbc8b13-d47c-447c-a255-f6c5e356a576">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -50,7 +50,7 @@ definition
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0017] occurrences matches {0..1} matches {    -- Date processed
+					ELEMENT[at0017] occurrences matches {0..1} matches {    -- Date created
 						value matches {
 							DV_DATE_TIME matches {*}
 						}
@@ -98,7 +98,7 @@ ontology
 					description = <"">
 				>
 				["at0017"] = <
-					text = <"Date processed">
+					text = <"Date created">
 					description = <"">
 				>
 			>
