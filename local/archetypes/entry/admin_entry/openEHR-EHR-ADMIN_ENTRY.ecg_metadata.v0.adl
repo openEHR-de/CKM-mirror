@@ -1,0 +1,106 @@
+﻿archetype (adl_version=1.4; uid=9ff9ae9f-2724-4d6a-8837-e2a656d75fe4)
+	openEHR-EHR-ADMIN_ENTRY.ecg_metadata.v0
+
+concept
+	[at0000]	-- ECG Metadata
+language
+	original_language = <[ISO_639-1::en]>
+description
+	original_author = <
+		["name"] = <"Rony Ventura">
+		["organisation"] = <"Universitätsklinikum Schleswig-Holstein">
+		["email"] = <"rony.ventura@uksh.de">
+		["date"] = <"2026-03-31">
+	>
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"To record metadata  related to the ECG study">
+			use = <"">
+			keywords = <"ECG Metadata", ...>
+			misuse = <"To record metadata not related to ECG study ">
+			copyright = <"© HiGHmed">
+		>
+	>
+	lifecycle_state = <"in_development">
+	other_contributors = <>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
+		["custodian_organisation"] = <"HiGHmed">
+		["original_namespace"] = <"org.highmed">
+		["original_publisher"] = <"HiGHmed">
+		["custodian_namespace"] = <"org.highmed">
+		["MD5-CAM-1.0.1"] = <"34EF9F08796A3949A5B9198BC7B52B6E">
+		["build_uid"] = <"57be4e1b-4a74-4d4b-af65-ec8d25147248">
+		["revision"] = <"0.0.1-alpha">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- ECG Metadata
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0007] occurrences matches {0..1} matches {    -- Study uid
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0011] occurrences matches {0..1} matches {    -- S3 key
+						value matches {
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0017] occurrences matches {0..1} matches {    -- Date processed
+						value matches {
+							DV_DATE_TIME matches {*}
+						}
+					}
+					allow_archetype CLUSTER[at0015] occurrences matches {0..*} matches {    -- Location
+						include
+							archetype_id/value matches {/openEHR-EHR-CLUSTER\.location\.v1|openEHR-EHR-CLUSTER\.organization\.v0/}
+					}
+					allow_archetype CLUSTER[at0016] occurrences matches {0..*} matches {    -- Media data
+						include
+							archetype_id/value matches {/openEHR-EHR-CLUSTER\.media_file\.v1/}
+					}
+				}
+			}
+		}
+	}
+
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"ECG Metadata">
+					description = <"ECG Metadata">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0007"] = <
+					text = <"Study uid">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"S3 key">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Location">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Media data">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Date processed">
+					description = <"">
+				>
+			>
+		>
+	>
