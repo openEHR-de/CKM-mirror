@@ -47,8 +47,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"939D1B2E904C3D672905F5EAE063FB2A">
-		["build_uid"] = <"d65b56d1-bfef-476f-990e-fae8a047cdd3">
+		["MD5-CAM-1.0.1"] = <"A05BD3BCAF3A85C73024836E2F38E665">
+		["build_uid"] = <"b5308877-f25d-4ac9-aa78-aee174543b90">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -65,11 +65,6 @@ definition
 					ELEMENT[at0011] occurrences matches {0..1} matches {    -- S3 key
 						value matches {
 							DV_TEXT matches {*}
-						}
-					}
-					ELEMENT[at0017] occurrences matches {0..1} matches {    -- Date created
-						value matches {
-							DV_DATE_TIME matches {*}
 						}
 					}
 					allow_archetype CLUSTER[at0015] occurrences matches {0..*} matches {    -- Location
@@ -114,10 +109,6 @@ ontology
 					text = <"Media data">
 					description = <"">
 				>
-				["at0017"] = <
-					text = <"Date created">
-					description = <"">
-				>
 			>
 		>
 		["de"] = <
@@ -144,10 +135,6 @@ ontology
 				>
 				["at0016"] = <
 					text = <"Mediendaten">
-					description = <"">
-				>
-				["at0017"] = <
-					text = <"Erstellungsdatum">
 					description = <"">
 				>
 			>
