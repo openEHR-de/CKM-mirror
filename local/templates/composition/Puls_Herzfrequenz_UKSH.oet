@@ -47,7 +47,7 @@
             </item>
             <item>
                 <key>sem_ver</key>
-                <value>0.5.0</value>
+                <value>0.6.0</value>
             </item>
             <item>
                 <key>build_uid</key>
@@ -76,7 +76,6 @@
             <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at1005]"/>
             <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at0005]"/>
             <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at1055]"/>
-            <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at1030]"/>
             <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at1022]"/>
             <Rule max="0" path="/data[at0002]/events[at0003]/data[at0001]/items[at1023]"/>
             <Rule max="0" name="Spezifizierung" path="/data[at0002]/events[at0003]/data[at0001]/items[at1059]"/>
