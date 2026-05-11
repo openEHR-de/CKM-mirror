@@ -43,8 +43,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"7ED2E0AEECB0455B2EAFB65E5B660644">
-		["build_uid"] = <"31a4800b-be9e-4179-9b9a-77e4bc0bd96a">
+		["MD5-CAM-1.0.1"] = <"B5B016B6FADE37346A28B30676AE775C">
+		["build_uid"] = <"ec37925e-4fab-40eb-8e5c-8b880703c39a">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -57,7 +57,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0004] occurrences matches {0..1} matches {    -- CI
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Value
 										value matches {
 											C_DV_QUANTITY <
 												
@@ -67,11 +67,6 @@ definition
 													>
 												>
 											>
-										}
-									}
-									ELEMENT[at0006] occurrences matches {0..1} matches {    -- Klinische Interpretation
-										value matches {
-											DV_TEXT matches {*}
 										}
 									}
 								}
@@ -105,11 +100,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"CI">
-					description = <"">
-				>
-				["at0006"] = <
-					text = <"Klinische Interpretation">
+					text = <"Value">
 					description = <"">
 				>
 			>
@@ -133,11 +124,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"CI">
-					description = <"">
-				>
-				["at0006"] = <
-					text = <"Klinische Interpretation">
+					text = <"Wert">
 					description = <"">
 				>
 			>
