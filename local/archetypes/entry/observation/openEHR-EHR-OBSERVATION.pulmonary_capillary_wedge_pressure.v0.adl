@@ -5,6 +5,16 @@ concept
 	[at0000]	-- Pulmonary capillary wedge pressure
 language
 	original_language = <[ISO_639-1::de]>
+	translations = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["date"] = <"2025-10-08">
@@ -17,6 +27,12 @@ description
 			misuse = <"">
 			copyright = <"© HiGHmed">
 		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+		>
 	>
 	lifecycle_state = <"in_development">
 	other_contributors = <>
@@ -26,8 +42,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"8D69560A1549EFBBD6CD9BCDFE003B2E">
-		["build_uid"] = <"48e2a845-eb0b-402f-b86b-f5acc64fa4c1">
+		["MD5-CAM-1.0.1"] = <"18A94F8BD129F3FF590151EFC4B4B6EE">
+		["build_uid"] = <"53b89fb7-aaa0-4b96-be13-c9e40dcd4a8d">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -84,6 +100,30 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Wert">
+					description = <"">
+				>
+			>
+		>
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Pulmonary capillary wedge pressure">
+					description = <"Pulmonary capillary wedge pressure">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Value">
 					description = <"">
 				>
 			>
