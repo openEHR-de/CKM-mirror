@@ -26,8 +26,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"B42458CA3A2E6A4D7DE28564E1A9A096">
-		["build_uid"] = <"ef0e27c9-fd1e-478e-99e2-299a8f51a306">
+		["MD5-CAM-1.0.1"] = <"8D69560A1549EFBBD6CD9BCDFE003B2E">
+		["build_uid"] = <"48e2a845-eb0b-402f-b86b-f5acc64fa4c1">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -40,7 +40,7 @@ definition
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
-									ELEMENT[at0004] occurrences matches {0..1} matches {    -- PCWP
+									ELEMENT[at0004] occurrences matches {0..1} matches {    -- Wert
 										value matches {
 											C_DV_QUANTITY <
 												property = <[openehr::125]>
@@ -50,11 +50,6 @@ definition
 													>
 												>
 											>
-										}
-									}
-									ELEMENT[at0005] occurrences matches {0..1} matches {    -- Klinische Interpretation
-										value matches {
-											DV_TEXT matches {*}
 										}
 									}
 								}
@@ -88,11 +83,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"PCWP">
-					description = <"">
-				>
-				["at0005"] = <
-					text = <"Klinische Interpretation">
+					text = <"Wert">
 					description = <"">
 				>
 			>
