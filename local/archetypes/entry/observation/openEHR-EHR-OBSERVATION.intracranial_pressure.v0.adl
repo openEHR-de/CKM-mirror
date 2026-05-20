@@ -5,6 +5,16 @@ concept
 	[at0000]	-- Intracranial pressure
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,13 @@ description
 		["date"] = <"2026-05-20">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"Der intrakranielle Druck (ICP) spiegelt den Druck innerhalb des Schädels sowie das Gleichgewicht zwischen Hirngewebe, Liquor (Gehirn-Rückenmarks-Flüssigkeit) und intrakraniellem Blutvolumen wider. Er wird klinisch eingesetzt, um Hirnverletzungen zu überwachen und zu verhindern, indem das Risiko einer verminderten zerebralen Perfusion und einer Herniation beurteilt wird.">
+			use = <"Aufzeichnung von Druckmessungen innerhalb der Schädelhöhle (intrakranieller Raum), typischerweise mittels invasiver Neuromonitoring-Verfahren (z. B. Ventrikelkatheter oder intraparenchymale Sonde), insbesondere im intensivmedizinischen oder neurochirurgischen Setting.">
+			keywords = <"ICP ,intrakranieller Druck", ...>
+			misuse = <"bei der die Messung nicht tatsächlich dem intrakraniellen Druck entspricht, beispielsweise bei Verwendung für allgemeinen Blutdruck, nicht-intrakranielle Gefäßdrücke oder geschätzte bzw. nicht-invasive Surrogatwerte, die keine echten ICP-Messungen aus geeigneten intrakraniellen Überwachungsgeräten darstellen. IBP, NIBP oder intrakranielle Temperatur dürfen nicht erfasst werden.">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"Intracranial pressure (ICP) reflects the pressure inside the skull and the balance between brain tissue, cerebrospinal fluid, and intracranial blood volume. It is used clinically to monitor and prevent brain injury by assessing risk of reduced cerebral perfusion and herniation.">
@@ -30,8 +47,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"DAFEF737FE2D71E24B476381359C72B6">
-		["build_uid"] = <"a5947176-e2c3-4403-8158-63f95f9a42dc">
+		["MD5-CAM-1.0.1"] = <"B1C80B91679DA7FB9E3CD8602174BE14">
+		["build_uid"] = <"cebb8089-0dcb-4bc4-8161-236b53f06568">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -88,6 +105,30 @@ ontology
 				>
 				["at0004"] = <
 					text = <"Value">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"Intrakranieller Druck">
+					description = <"Intrakranieller Druck">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Wert">
 					description = <"">
 				>
 			>
