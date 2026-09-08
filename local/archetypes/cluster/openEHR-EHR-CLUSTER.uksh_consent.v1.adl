@@ -43,9 +43,9 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"44C54CD0D311D648CFB5A0BD225838CC">
-		["build_uid"] = <"e2deb0b4-96d0-4d0c-8dd0-55e5acc2f741">
-		["revision"] = <"1.1.2">
+		["MD5-CAM-1.0.1"] = <"419732B933BB6F9BBE89D3E719D7A40E">
+		["build_uid"] = <"69bad775-e6be-4f9d-bba4-83710d5cd43f">
+		["revision"] = <"1.1.3">
 	>
 
 definition
@@ -128,8 +128,8 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"*uksh_consent(en)">
-					description = <"*uksh_consent(en)">
+					text = <"uksh_consent">
+					description = <"uksh_consent">
 				>
 				["at0001"] = <
 					text = <"Einwilligungstyp">
