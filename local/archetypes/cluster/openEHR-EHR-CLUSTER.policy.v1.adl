@@ -43,9 +43,9 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"B71EBFE0D845FADE9456982ABC8AFBD6">
-		["build_uid"] = <"ed9952c9-0a73-437c-83ad-0d9a81c87550">
-		["revision"] = <"1.2.3">
+		["MD5-CAM-1.0.1"] = <"AC3829EA3A908F5D242BE1549DE84E2B">
+		["build_uid"] = <"4ad91864-1067-4d05-813f-9b5bbe732548">
+		["revision"] = <"1.2.4">
 	>
 
 definition
@@ -86,11 +86,11 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"Richtlinie">
-					description = <"richtlinie">
+					text = <"Policy">
+					description = <"Policy">
 				>
 				["at0005"] = <
-					text = <"Richtlinie">
+					text = <"Policy">
 					description = <"">
 				>
 				["at0006"] = <
