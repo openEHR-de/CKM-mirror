@@ -27,15 +27,15 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"83931CEF65C931A1F9E01779660570D0">
-		["build_uid"] = <"5787e05a-d750-4ccf-9973-e08f60ce4236">
-		["revision"] = <"1.1.0">
+		["MD5-CAM-1.0.1"] = <"72063856240703F186F919152040A8E5">
+		["build_uid"] = <"8f1257a8-9bea-4bfe-a020-67de87ef250a">
+		["revision"] = <"1.1.1">
 	>
 
 definition
 	CLUSTER[at0000] matches {    -- uksh_consent
 		items cardinality matches {1..*; unordered} matches {
-			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Einwilligungstyp
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Consent type
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -55,14 +55,14 @@ definition
 					DV_DATE_TIME matches {*}
 				}
 			}
-			ELEMENT[at0009] occurrences matches {0..1} matches {    -- URI Einwilligungsnachweis
+			ELEMENT[at0009] occurrences matches {0..1} matches {    -- URI Consent Form
 				value matches {
 					DV_TEXT matches {*}
 				}
 			}
 			allow_archetype CLUSTER[at0006] occurrences matches {0..*} matches {    -- Policy_Slot
 			}
-			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Kommentar
+			ELEMENT[at0008] occurrences matches {0..1} matches {    -- Comment
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -80,7 +80,7 @@ ontology
 					description = <"uksh_consent">
 				>
 				["at0001"] = <
-					text = <"Einwilligungstyp">
+					text = <"Consent type">
 					description = <"">
 				>
 				["at0003"] = <
@@ -100,11 +100,11 @@ ontology
 					description = <"">
 				>
 				["at0008"] = <
-					text = <"Kommentar">
+					text = <"Comment">
 					description = <"">
 				>
 				["at0009"] = <
-					text = <"URI Einwilligungsnachweis">
+					text = <"URI Consent Form">
 					description = <"">
 				>
 			>
