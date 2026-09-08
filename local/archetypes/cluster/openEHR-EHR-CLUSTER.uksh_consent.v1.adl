@@ -5,11 +5,27 @@ concept
 	[at0000]	-- uksh_consent
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["date"] = <"2024-04-25">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"">
@@ -27,9 +43,9 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"72063856240703F186F919152040A8E5">
-		["build_uid"] = <"8f1257a8-9bea-4bfe-a020-67de87ef250a">
-		["revision"] = <"1.1.1">
+		["MD5-CAM-1.0.1"] = <"44C54CD0D311D648CFB5A0BD225838CC">
+		["build_uid"] = <"e2deb0b4-96d0-4d0c-8dd0-55e5acc2f741">
+		["revision"] = <"1.1.2">
 	>
 
 definition
@@ -105,6 +121,42 @@ ontology
 				>
 				["at0009"] = <
 					text = <"URI Consent Form">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"*uksh_consent(en)">
+					description = <"*uksh_consent(en)">
+				>
+				["at0001"] = <
+					text = <"Einwilligungstyp">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Startdatum">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Enddatum">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Version">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Policy-Platz">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Kommentar">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"URI Einwilligungsnachweis">
 					description = <"">
 				>
 			>
