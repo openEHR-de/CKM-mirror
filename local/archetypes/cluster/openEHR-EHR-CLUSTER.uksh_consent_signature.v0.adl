@@ -29,20 +29,20 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"25B1657279A8206117431BD9EC18191A">
-		["build_uid"] = <"93088354-d1e6-4e0a-abb9-2e734ba01a5c">
+		["MD5-CAM-1.0.1"] = <"56782CBEB679070FD382C092B7015817">
+		["build_uid"] = <"1c844be9-85de-4a2e-bad1-05d4334edd54">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	CLUSTER[at0000] matches {    -- uksh_consent_signature
+	CLUSTER[at0000] occurrences matches {1..*} matches {    -- uksh_consent_signature
 		items cardinality matches {1..*; unordered} matches {
-			ELEMENT[at0001] occurrences matches {0..1} matches {    -- Signature teenager
+			ELEMENT[at0001] occurrences matches {1..*} matches {    -- Signee
 				value matches {
 					DV_TEXT matches {*}
 				}
 			}
-			ELEMENT[at0002] occurrences matches {0..1} matches {    -- Signature parent
+			ELEMENT[at0002] occurrences matches {1..*} matches {    -- Signed
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -60,11 +60,11 @@ ontology
 					description = <"signature">
 				>
 				["at0001"] = <
-					text = <"Signature teenager">
+					text = <"Signee">
 					description = <"">
 				>
 				["at0002"] = <
-					text = <"Signature parent">
+					text = <"Signed">
 					description = <"">
 				>
 			>
