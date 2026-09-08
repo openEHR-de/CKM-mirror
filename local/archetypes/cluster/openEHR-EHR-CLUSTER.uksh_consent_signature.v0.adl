@@ -29,8 +29,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"56782CBEB679070FD382C092B7015817">
-		["build_uid"] = <"1c844be9-85de-4a2e-bad1-05d4334edd54">
+		["MD5-CAM-1.0.1"] = <"0D31649066412264BC57BDA1B0839896">
+		["build_uid"] = <"5bb57b71-36fd-469d-b783-9891c8a05cc7">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -42,9 +42,9 @@ definition
 					DV_TEXT matches {*}
 				}
 			}
-			ELEMENT[at0002] occurrences matches {1..*} matches {    -- Signed
+			ELEMENT[at0003] occurrences matches {1..*} matches {    -- Signed
 				value matches {
-					DV_TEXT matches {*}
+					DV_BOOLEAN matches {*}
 				}
 			}
 		}
@@ -63,7 +63,7 @@ ontology
 					text = <"Signee">
 					description = <"">
 				>
-				["at0002"] = <
+				["at0003"] = <
 					text = <"Signed">
 					description = <"">
 				>
