@@ -5,6 +5,16 @@ concept
 	[at0000]	-- uksh_consent_signature
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,12 @@ description
 		["date"] = <"2026-09-08">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"Zur Erfassung der vorliegenden Unterschriften im UKSH Broad Consent – Kinder / Jugendliche.">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To capture the available signatures in  UKSH´s  Broad Consent - Children / Adolescents">
@@ -29,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"0D31649066412264BC57BDA1B0839896">
-		["build_uid"] = <"5bb57b71-36fd-469d-b783-9891c8a05cc7">
+		["MD5-CAM-1.0.1"] = <"03E2FB6CC35CA8167C64A3427F4ACCE6">
+		["build_uid"] = <"fa37d24e-55ee-443c-867d-36c0d18c10c7">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -65,6 +81,22 @@ ontology
 				>
 				["at0003"] = <
 					text = <"Signed">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"uksh_consent_signature">
+					description = <"Unterschrift">
+				>
+				["at0001"] = <
+					text = <"Unterzeichner">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Unterschrieben">
 					description = <"">
 				>
 			>
