@@ -5,6 +5,16 @@ concept
 	[at0000]	-- ACRIBIS Anamnese-Patient history
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,12 @@ description
 		["date"] = <"2026-10-05">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"">
@@ -29,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"E616FDF8427D82CF11092A9706E20EC0">
-		["build_uid"] = <"b4a2b302-4158-4896-b48d-daf34f803c72">
+		["MD5-CAM-1.0.1"] = <"9B8E1C9B6554C0DF997E222ACC2B4CEF">
+		["build_uid"] = <"a0944cc9-fe7a-4237-a0c3-c428f5da310e">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -488,6 +504,318 @@ ontology
 				>
 				["at0086"] = <
 					text = <"Implanted device">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"ACRIBIS Anamnese-Anamnese">
+					description = <"ACRIBIS Anamnese-Anamnese">
+				>
+				["at0001"] = <
+					text = <"Hat der Patient eine Herzklappenerkrankung?">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"Welche Herzklappe ist betroffen?">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0004"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0005"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0006"] = <
+					text = <"Mitralklappe">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Aortenklappe">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Trikuspidalklappe">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Pulmonalklappe">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Handelt es sich bei der Herzklappenerkrankung um eine Stenose oder eine Insuffizienz?">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Stenose">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Insuffizienz">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Stenose und Insuffizienz (kombiniertes Vitium)">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Wie wurde die Erkrankung behandelt?">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"operativer Klappenersatz">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"op. Klappenrekonstruktion">
+					description = <"">
+				>
+				["at0019"] = <
+					text = <"Interventionelle Klappentherapie">
+					description = <"">
+				>
+				["at0020"] = <
+					text = <"Bislang noch unbehandelt">
+					description = <"">
+				>
+				["at0021"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0022"] = <
+					text = <"Ist bei dem Patienten ein angeborener Herzfehler bekannt (ausgenommen: bikuspide Aortenklappe und PFO)?">
+					description = <"">
+				>
+				["at0023"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0024"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0025"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0026"] = <
+					text = <"Wurde ein Defibrillator oder Schrittmacher implantiert?">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0037"] = <
+					text = <"Hat der Patient eine Verengung oder Erkrankung der Herzkranzgefäße (KHK)?">
+					description = <"">
+				>
+				["at0038"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0039"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0040"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0041"] = <
+					text = <"Sind bei dem Patienten Verengungen oder Plaqueablagerungen (cAVD) der Halsschlagadern bekannt?">
+					description = <"">
+				>
+				["at0042"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0043"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0044"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0047"] = <
+					text = <"Wann wurde dies das erste Mal diagnostiziert?">
+					description = <"">
+				>
+				["at0048"] = <
+					text = <"Karotiden">
+					description = <"">
+				>
+				["at0049"] = <
+					text = <"Fand deswegen schon einmal eine OP oder eine Katheterintervention an den Halsschlagadern statt?">
+					description = <"">
+				>
+				["at0050"] = <
+					text = <"Operation">
+					description = <"">
+				>
+				["at0051"] = <
+					text = <"katheterinterventioneller Eingriff">
+					description = <"">
+				>
+				["at0052"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0053"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0054"] = <
+					text = <"Hatte der Patient bereits einen embolischen Gefäßverschluss im Kopf-/Halsbereich (z. B. TIA/Schlaganfall/Amaurosis fugax/Netzhautinfarkt)?">
+					description = <"">
+				>
+				["at0055"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0056"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0057"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0058"] = <
+					text = <"Um welche Art eines Gefäßverschlusses im Kopf-Halsbereich handelte es sich?">
+					description = <"">
+				>
+				["at0059"] = <
+					text = <"TIA">
+					description = <"">
+				>
+				["at0060"] = <
+					text = <"Stroke">
+					description = <"">
+				>
+				["at0061"] = <
+					text = <"Amaurosis fugax">
+					description = <"">
+				>
+				["at0062"] = <
+					text = <"Retinainfarkt">
+					description = <"">
+				>
+				["at0063"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0064"] = <
+					text = <"Hatte der Patient schon einmal einen arteriellen Gefäßverschluss durch ein Blutgerinnsel außerhalb des Kopf-Hals-Bereichs?">
+					description = <"">
+				>
+				["at0065"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0066"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0067"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0068"] = <
+					text = <"Sind beim Patienten Verkalkungen der Hauptschlagader bekannt?">
+					description = <"">
+				>
+				["at0069"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0070"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0071"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0072"] = <
+					text = <"Ist beim Patienten ein Vorhofflimmern bekannt?">
+					description = <"">
+				>
+				["at0073"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0074"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0075"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0076"] = <
+					text = <"Wann wurde das Vorhofflimmern erstmals diagnostiziert?">
+					description = <"">
+				>
+				["at0077"] = <
+					text = <"Liegt beim Patienten eine arterielle Hypertonie (Bluthochdruck) vor oder werden deswegen Medikamente eingenommen?">
+					description = <"">
+				>
+				["at0078"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0079"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0080"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0081"] = <
+					text = <"Ist oder war beim Patienten ein Bauchaortenaneurysma (krankhafte Erweiterung der Aorta) bekannt?">
+					description = <"">
+				>
+				["at0082"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0083"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0084"] = <
+					text = <"Unbekannt">
+					description = <"">
+				>
+				["at0086"] = <
+					text = <"Implantiertes Gerät">
 					description = <"">
 				>
 			>
