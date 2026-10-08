@@ -5,6 +5,16 @@ concept
 	[at0000]	-- ACRIBIS Anamnese
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,12 @@ description
 		["date"] = <"2026-10-05">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"">
@@ -29,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"CAC8E3C4BC45A2999A94838669E88EBD">
-		["build_uid"] = <"3a1e7458-d003-432b-a5a4-16a9d629dbe0">
+		["MD5-CAM-1.0.1"] = <"1B6EF15DC2FD1265DD207E6C16EABDCD">
+		["build_uid"] = <"69a05d4e-da6a-4ad6-ab86-2ba8a1f7af44">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -86,6 +102,34 @@ ontology
 				>
 				["at0007"] = <
 					text = <"Patient questionnarie">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"*ACRIBIS Anamnese(en)">
+					description = <"*ACRIBIS Anamnese(en)">
+				>
+				["at0001"] = <
+					text = <"History">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0006"] = <
+					text = <"Anamnese">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Patientenfragebogen">
 					description = <"">
 				>
 			>
