@@ -45,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"1B6EF15DC2FD1265DD207E6C16EABDCD">
-		["build_uid"] = <"69a05d4e-da6a-4ad6-ab86-2ba8a1f7af44">
+		["MD5-CAM-1.0.1"] = <"506101B0F6E43207DE0E2BA42A2C11AC">
+		["build_uid"] = <"a193ea1c-38c3-4bf2-b1a6-bf8c10ec4244">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -109,8 +109,8 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"*ACRIBIS Anamnese(en)">
-					description = <"*ACRIBIS Anamnese(en)">
+					text = <"ACRIBIS Anamnese">
+					description = <"ACRIBIS Anamnese">
 				>
 				["at0001"] = <
 					text = <"History">
