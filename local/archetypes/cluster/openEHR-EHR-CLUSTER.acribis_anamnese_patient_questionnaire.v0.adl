@@ -5,6 +5,16 @@ concept
 	[at0000]	-- ACRIBIS Anamnese-Patient questionnaire
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Rony Ventura">
+				["organisation"] = <"UKSH">
+				["email"] = <"rony.ventura@uksh.de">
+			>
+		>
+	>
 description
 	original_author = <
 		["name"] = <"Rony Ventura">
@@ -13,6 +23,12 @@ description
 		["date"] = <"2026-10-05">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"">
@@ -29,8 +45,8 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"3173478F7850117CC72D363BA7FDDA2A">
-		["build_uid"] = <"ecebe334-031c-426c-8a41-4d001fbb4547">
+		["MD5-CAM-1.0.1"] = <"0BFA7F9B48D98BB9D22BB97F85FC787C">
+		["build_uid"] = <"52bca423-537e-4692-a3a1-1e6e42a6701e">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -124,6 +140,66 @@ ontology
 				>
 				["at0018"] = <
 					text = <"Unknown">
+					description = <"">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"ACRIBIS Anamnese-Patientenfragebogen">
+					description = <"ACRIBIS Anamnese-Patientenfragebogen">
+				>
+				["at0006"] = <
+					text = <"Haben Sie Diabetes (Diabetes mellitus)?">
+					description = <"">
+				>
+				["at0007"] = <
+					text = <"Kam es in den letzten 12 Monaten zu einer stationären Krankenhausbehandlung wegen einer Verschlechterung Ihrer Herzinsuffizienz (Herzschwäche)?">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Wurde bei Ihnen eine Herzinsuffizienz (Herzschwäche) diagnostiziert?">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"Ich weiß es nicht">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Wann wurde die Herzschwäche bei Ihnen ärztlich festgestellt?">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0015"] = <
+					text = <"Ich weiß es nicht">
+					description = <"">
+				>
+				["at0016"] = <
+					text = <"Ja">
+					description = <"">
+				>
+				["at0017"] = <
+					text = <"Nein">
+					description = <"">
+				>
+				["at0018"] = <
+					text = <"Unbekannt">
 					description = <"">
 				>
 			>
