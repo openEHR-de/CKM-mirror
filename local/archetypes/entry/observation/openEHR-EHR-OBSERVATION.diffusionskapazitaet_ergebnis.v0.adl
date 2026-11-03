@@ -44,8 +44,8 @@ Wanger, J., Clausen, J. L., & Coates, A. (2005). Standardisation of the measurem
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"10A18876C637147359A3FCBE5553002D">
-		["build_uid"] = <"07e3efcd-8e84-4d4e-8d32-87e3b60afcc6">
+		["MD5-CAM-1.0.1"] = <"A1016D9DBB656702173311733C910B69">
+		["build_uid"] = <"0fd05892-51ef-455e-b802-ad0173d31e96">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -277,7 +277,7 @@ ontology
 				>
 				["at0030"] = <
 					text = <"Erweiterung">
-					description = <"Zusätzliche Information, die für die Erfassung des lokalen Kontexts oder für die Anpassung an andere Referenzmodelle/Formalismen benötigt werden.">
+					description = <"Zusätzliche Information, die für die Erfassung des lokalen Kontexts oder für die Anpassung an andere Referenzmodelle/Formalismen benötigt wird.">
 					comment = <"Zum Beispiel: Informationen bzgl. der lokalen Krankenhausabteilung oder zusätzliche Metadata zur Anpassung an entsprechende FHIR oder CIMI Gegenstücke.">
 				>
 			>
