@@ -42,8 +42,8 @@ Nicht zur Aufzeichnung von Messungen zur Pulsoximetrie geeignet. Verwenden Sie z
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"C8E341E1C2A4DB63744C789C2BDC6E20">
-		["build_uid"] = <"bda35f13-c254-4161-9009-f619f07e0e18">
+		["MD5-CAM-1.0.1"] = <"D2C0808493173F4510919DCB963E3850">
+		["build_uid"] = <"abb6e62e-f4af-4cdd-8972-f7db4d18c775">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -53,7 +53,7 @@ definition
 		data matches {
 			HISTORY[at0001] matches {    -- History
 				events cardinality matches {1..*; unordered} matches {
-					EVENT[at0002] occurrences matches {0..*} matches {    -- Any event
+					EVENT[at0002] occurrences matches {0..*} matches {    -- Jedes Ereignis
 						data matches {
 							ITEM_TREE[at0003] matches {    -- Tree
 								items cardinality matches {0..*; unordered} matches {
@@ -264,9 +264,8 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0002"] = <
-					text = <"Any event">
-					description = <"Jedes Ereignis
-">
+					text = <"Jedes Ereignis">
+					description = <"Jeder Zeitpunkt oder jedes Intervall, das in einem Template oder zur Laufzeit definiert werden kann.">
 				>
 				["at0003"] = <
 					text = <"Tree">
