@@ -76,8 +76,8 @@ Plomp, R. (1978). Auditory handicap of hearing impairment and the limited benefi
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"DE428E68DECD89446F29D002019EF3F3">
-		["build_uid"] = <"12a048fc-3008-4ef4-820d-466918ac76b2">
+		["MD5-CAM-1.0.1"] = <"2983DB14B22253F96816360E97900F39">
+		["build_uid"] = <"d84c3d31-92a3-4bd6-a82b-056d2bb00f12">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -200,16 +200,7 @@ definition
 													}
 													ELEMENT[at0276] occurrences matches {0..1} matches {    -- Slope at target
 														value matches {
-															C_DV_QUANTITY <
-																property = <[openehr::755]>
-																list = <
-																	["1"] = <
-																		units = <"[arb'U]{%}/dB">
-																		magnitude = <|0.0..100.0|>
-																		precision = <|2|>
-																	>
-																>
-															>
+															DV_QUANTITY matches {*}
 														}
 													}
 												}
@@ -249,16 +240,7 @@ definition
 													}
 													ELEMENT[at0277] occurrences matches {0..1} matches {    -- Slope at target
 														value matches {
-															C_DV_QUANTITY <
-																property = <[openehr::755]>
-																list = <
-																	["1"] = <
-																		units = <"[arb'U]{%}/dB">
-																		magnitude = <|0.0..100.0|>
-																		precision = <|2|>
-																	>
-																>
-															>
+															DV_QUANTITY matches {*}
 														}
 													}
 													ELEMENT[at0201] occurrences matches {0..1} matches {    -- SRT calculation method
@@ -1435,10 +1417,12 @@ ontology
 				["at0276"] = <
 					text = <"Slope at target">
 					description = <"The slope of the psychometric function at the target intelligibility. ">
+					comment = <"Note: Unit %/dB (percent points per dB) will be added after the review.">
 				>
 				["at0277"] = <
 					text = <"Slope at target">
 					description = <"The slope of the psychometric function at the target intelligibility. ">
+					comment = <"Note: Unit %/dB (percent points per dB) will be added after the review.">
 				>
 				["at0279"] = <
 					text = <"Presentation method">
